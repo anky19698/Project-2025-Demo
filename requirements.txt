@@ -3,3 +3,4 @@ langchain-groq
 faiss-cpu
 streamlit
 langchain-community
+sentence-transformers
