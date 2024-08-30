@@ -1,8 +1,5 @@
 from langchain.embeddings import HuggingFaceEmbeddings
 from langchain.vectorstores import FAISS
-from langchain import HuggingFacePipeline
-from langchain.chains import RetrievalQA
-import tqdm
 from langchain_groq import ChatGroq
 import os 
 import streamlit as st
