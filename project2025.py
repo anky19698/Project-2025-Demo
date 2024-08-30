@@ -22,7 +22,7 @@ def load_faiss_index(embeddings):
 
 
 def get_llm_model():
-    groq_api_key = st.secret['groq_api_key']
+    groq_api_key = st.secrets['groq_api_key']
     os.environ['GROQ_API_KEY'] = groq_api_key
 
     model_name = 'llama-3.1-8b-instant'
