@@ -69,7 +69,7 @@ def generate_response(prompt, model):
 def main():
     
     # Title of the Streamlit app
-    st.title("Project 2025 RAG Chatbot")
+    st.title(":newspaper: Project 2025 RAG Chatbot")
 
     # Load Embeddings
     embeddings = load_embeddings()
